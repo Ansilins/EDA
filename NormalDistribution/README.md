@@ -33,3 +33,9 @@ plt.show()
  
 ```
 `Output`
+
+
+
+
+
+<img src="/other/images/temperature_distribution.png" width = 400>
