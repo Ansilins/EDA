@@ -10,26 +10,27 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load your dataset - Replace 'your_dataset.csv' with the actual file path of your dataset
-# Assuming your dataset has a column named 'Rainfall'
-your_dataset_path = 'your dataset path'
+# Assuming your dataset has a column named 'Temperature'
+your_dataset_path = 'your_dataset.csv'
 df = pd.read_csv(your_dataset_path)
 
-# Extract the 'Rainfall' column
-rainfall_data = df['Rainfall']
+# Extract the 'Temperature' column
+temperature_data = df['Temperature']
 
 # Create a histogram and fit a kernel density estimate
-sns.histplot(rainfall_data, kde=True, color='skyblue', stat='density')
+sns.histplot(temperature_data, kde=True, color='skyblue', stat='density')
 
 # Set labels and title
-plt.xlabel('Rainfall')
+plt.xlabel('Temperature')
 plt.ylabel('Density')
-plt.title('Normal Distribution of Rainfall')
+plt.title('Normal Distribution of Temperature')
 
-# Save the plot as a high-quality image (e.g., PNG) with higher DPI
-plt.savefig('rainfall_distribution_high_quality.png', dpi=2000, bbox_inches='tight')
+# Save the plot as a high-quality image (e.g., PNG)
+plt.savefig('temperature_distribution.png', dpi=300, bbox_inches='tight')
 
 # Show the plot
 plt.show()
+
  
 ```
 `Output`
