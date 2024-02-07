@@ -1,5 +1,7 @@
 # NORMAL DISTRIBUTION
-  This folder contains normal distribution on different dataset and features in the datasets. 
+  Normal distribution, also known as the Gaussian distribution, is a probability distribution that is symmetric around its mean, with the majority of the observations clustered around the mean and fewer observations in the tails. It is characterized by its bell-shaped curve.
+
+
 
 
 `Code`
