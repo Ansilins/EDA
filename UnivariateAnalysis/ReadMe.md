@@ -1,4 +1,50 @@
-# NORMAL DISTRIBUTION
+# UNIVARIATE ANALYSIS
+Univariate analysis involves examining one variable at a time to understand its characteristics and behavior. Here are some common types of analysis that can be performed using univariate analysis,
+
+1.Descriptive Statistics.
+2.Frequency Distribution.
+3.Measures of Central Tendency.
+4.Measure of Dispersion.
+5.Quantiles and Percentiles.
+6.Probability Distribution.
+7.Skewness and Kurtosis.
+8.Outlier Detection.
+9.Missing Values Analysis.
+10.Data Transformation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Normal Distribution
   Normal distribution, also known as the Gaussian distribution, is a probability distribution that is symmetric around its mean, with the majority of the observations clustered around the mean and fewer observations in the tails. It is characterized by its bell-shaped curve.
 
 
