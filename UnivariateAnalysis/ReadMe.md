@@ -88,3 +88,8 @@ plt.show()
 
 
 <img src="/other/images/temperature_distribution.png" width = 400>
+
+
+
+#SUM 
+sum is used to add the total numbers and provide as the details of total value
