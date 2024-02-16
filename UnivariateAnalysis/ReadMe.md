@@ -91,5 +91,26 @@ plt.show()
 
 
 
-#SUM 
-sum is used to add the total numbers and provide as the details of total value
+# SUM IN EDA
+In Exploratory Data Analysis (EDA), the "sum" function is often used to calculate the total of a numerical variable across a dataset. This can be useful for understanding the overall magnitude or distribution of a variable, identifying potential outliers, or simply obtaining summary statistics.
+Understanding Total Magnitude
+Detecting Outliers
+Comparing Groups or Categories
+
+'sample code'
+```python
+import pandas as pd
+
+# Load the Excel file into a pandas DataFrame
+excel_file_path = 'your_excel_file.xlsx'  # Replace 'your_excel_file.xlsx' with the path to your Excel file
+df = pd.read_excel(excel_file_path)
+
+# Assuming 'column_name' is the name of the column you want to calculate the sum for
+column_name = 'your_column_name'  # Replace 'your_column_name' with the actual name of the column
+
+# Calculate the sum of the column
+column_sum = df[column_name].sum()
+
+print("Sum of '{}' column: {}".format(column_name, column_sum))
+
+```
