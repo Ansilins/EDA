@@ -2,7 +2,7 @@
 Univariate analysis involves examining one variable at a time to understand its characteristics and behavior. Here are some common types of analysis that can be performed using univariate analysis,
 
 1.Descriptive Statistics.
-2.Frequency Distribution.
+2.Sum
 3.Measures of Central Tendency.
 4.Measure of Dispersion.
 5.Quantiles and Percentiles.
@@ -11,7 +11,7 @@ Univariate analysis involves examining one variable at a time to understand its 
 8.Outlier Detection.
 9.Missing Values Analysis.
 10.Data Transformation.
-
+11.Frequency Distribution.
 
 
 
