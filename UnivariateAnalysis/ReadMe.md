@@ -114,3 +114,7 @@ column_sum = df[column_name].sum()
 print("Sum of '{}' column: {}".format(column_name, column_sum))
 
 ```
+
+
+
+# MEASURE OF CENTRAL TENDENCY
