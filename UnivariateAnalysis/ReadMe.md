@@ -97,7 +97,7 @@ Understanding Total Magnitude
 Detecting Outliers
 Comparing Groups or Categories
 
-'sample code'
+`sample code`
 ```python
 import pandas as pd
 
