@@ -16,35 +16,7 @@ Univariate analysis involves examining one variable at a time to understand its 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Normal Distribution
+# Normal Distribution
   Normal distribution, also known as the Gaussian distribution, is a probability distribution that is symmetric around its mean, with the majority of the observations clustered around the mean and fewer observations in the tails. It is characterized by its bell-shaped curve.
 
 
@@ -120,3 +92,11 @@ print("Sum of '{}' column: {}".format(column_name, column_sum))
 
 
 # MEASURE OF CENTRAL TENDENCY
+
+Measures of central tendency are statistical measures used to summarize or describe the central or typical value of a dataset. They provide insight into the center or midpoint of a distribution of values. The three most common measures of central tendency are the mean, median, and mode:
+
+Mean: Also known as the average, the mean is calculated by summing up all the values in a dataset and dividing by the total number of values. It represents the arithmetic average of the dataset and is sensitive to outliers.
+
+Median: The median is the middle value of a dataset when it is sorted in ascending order. If the dataset has an odd number of values, the median is the middle value. If the dataset has an even number of values, the median is the average of the two middle values. The median is robust to outliers and extreme values.
+
+Mode: The mode is the value that appears most frequently in a dataset. A dataset can have one mode (unimodal), two modes (bimodal), or more than two modes (multimodal). Unlike the mean and median, the mode can be applied to both numerical and categorical data.
