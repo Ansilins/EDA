@@ -4,7 +4,7 @@ Welcome to the Exploratory Data Analysis (EDA) Learning Repository! This reposit
 
 ## About Exploratory Data Analysis (EDA):
 
-EDA is an essential step in the data analysis process where analysts explore datasets to understand their underlying structure, patterns, and relationships. Through EDA, analysts can uncover insights, identify trends, and generate hypotheses for further investigation.
+is an essential step in the data analysis process where analysts explore datasets to understand their underlying structure, patterns, and relationships. Through EDA, analysts can uncover insights, identify trends, and generate hypotheses for further investigation.
 
 ## Contents:
 
