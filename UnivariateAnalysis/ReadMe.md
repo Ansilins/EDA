@@ -100,3 +100,24 @@ Mean: Also known as the average, the mean is calculated by summing up all the va
 Median: The median is the middle value of a dataset when it is sorted in ascending order. If the dataset has an odd number of values, the median is the middle value. If the dataset has an even number of values, the median is the average of the two middle values. The median is robust to outliers and extreme values.
 
 Mode: The mode is the value that appears most frequently in a dataset. A dataset can have one mode (unimodal), two modes (bimodal), or more than two modes (multimodal). Unlike the mean and median, the mode can be applied to both numerical and categorical data.
+
+# Measures of Dispersion
+
+In statistics, measures of dispersion are used to quantify the spread or variability of a dataset. Here are some common measures of dispersion:
+
+1. **Range**: The range is the simplest measure of dispersion and is calculated as the difference between the largest and smallest values in the dataset. It gives an idea of how spread out the data is.
+
+2. **Variance**: The variance measures the average squared deviation of each data point from the mean of the dataset. It provides a measure of the dispersion of the data around the mean.
+
+3. **Standard Deviation**: The standard deviation is the square root of the variance and is perhaps the most widely used measure of dispersion. It indicates the average deviation of data points from the mean.
+
+4. **Mean Absolute Deviation (MAD)**: MAD measures the average absolute difference between each data point and the mean of the dataset. Unlike the variance, it is not influenced by extreme values.
+
+5. **Percentiles and Quartiles**: Percentiles divide a dataset into hundredths, while quartiles divide it into quarters. They give insight into the distribution of the data and can help identify outliers.
+
+6. **Interquartile Range (IQR)**: IQR is the range between the first and third quartiles of the dataset. It is robust to outliers and gives a measure of the spread of the central 50% of the data.
+
+7. **Coefficient of Variation (CV)**: CV is the ratio of the standard deviation to the mean, expressed as a percentage. It is useful for comparing the variability of datasets with different means.
+
+Each measure has its own strengths and weaknesses, and the choice of which one to use depends on the specific characteristics of the data and the objectives of the analysis.
+
