@@ -163,18 +163,25 @@ plt.show()
 
 
 4. **Mean Absolute Deviation (MAD)**: MAD measures the average absolute difference between each data point and the mean of the dataset. Unlike the variance, it is not influenced by extreme values.
+`Code`
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 # Generate sample dataset
+`Code`
+
 np.random.seed(0)  # for reproducibility
 data = np.random.normal(loc=0, scale=1, size=1000)
 
 # Mean Absolute Deviation (MAD)
+`Code`
+
 mad_val = np.mean(np.abs(data - np.mean(data)))
 
 # Visualize MAD
+`Code`
+
 plt.figure()
 plt.hist(data, bins=30, alpha=0.7)
 plt.title('Mean Absolute Deviation (MAD): {}'.format(mad_val))
@@ -182,19 +189,26 @@ plt.show()
 
 
 5. **Percentiles and Quartiles**: Percentiles divide a dataset into hundredths, while quartiles divide it into quarters. They give insight into the distribution of the data and can help identify outliers.
+`Code`
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 # Generate sample dataset
+`Code`
+
 np.random.seed(0)  # for reproducibility
 data = np.random.normal(loc=0, scale=1, size=1000)
 
 # Percentiles and Quartiles
+`Code`
+
 percentiles = np.percentile(data, [25, 50, 75])
 q1, median, q3 = percentiles
 
 # Visualize Percentiles and Quartiles
+`Code`
+
 plt.figure()
 plt.boxplot(data)
 plt.title('Quartiles: Q1={}, Median={}, Q3={}'.format(q1, median, q3))
@@ -202,19 +216,26 @@ plt.show()
 
 
 6. **Interquartile Range (IQR)**: IQR is the range between the first and third quartiles of the dataset. It is robust to outliers and gives a measure of the spread of the central 50% of the data.
+`Code`
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 # Generate sample dataset
+`Code`
+
 np.random.seed(0)  # for reproducibility
 data = np.random.normal(loc=0, scale=1, size=1000)
 
 # Interquartile Range (IQR)
+`Code`
+
 percentiles = np.percentile(data, [25, 75])
 iqr_val = percentiles[1] - percentiles[0]
 
 # Visualize IQR
+`Code`
+
 plt.figure()
 plt.boxplot(data)
 plt.title('Interquartile Range (IQR): {}'.format(iqr_val))
@@ -224,18 +245,25 @@ plt.show()
 7. **Coefficient of Variation (CV)**: CV is the ratio of the standard deviation to the mean, expressed as a percentage. It is useful for comparing the variability of datasets with different means.
 
 Each measure has its own strengths and weaknesses, and the choice of which one to use depends on the specific characteristics of the data and the objectives of the analysis.
+`Code`
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 # Generate sample dataset
+`Code`
+
 np.random.seed(0)  # for reproducibility
 data = np.random.normal(loc=0, scale=1, size=1000)
 
 # Coefficient of Variation (CV)
+`Code`
+
 cv_val = np.std(data) / np.mean(data) * 100
 
 # Visualize CV
+`Code`
+
 plt.figure()
 plt.hist(data, bins=30, alpha=0.7)
 plt.title('Coefficient of Variation (CV): {:.2f}%'.format(cv_val))
