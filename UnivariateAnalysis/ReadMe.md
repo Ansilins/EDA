@@ -164,10 +164,11 @@ plt.show()
 
 4. **Mean Absolute Deviation (MAD)**: MAD measures the average absolute difference between each data point and the mean of the dataset. Unlike the variance, it is not influenced by extreme values.
 `Code`
-
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
+```
 # Generate sample dataset
 `Code`
 
