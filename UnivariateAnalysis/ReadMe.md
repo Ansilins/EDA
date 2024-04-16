@@ -25,31 +25,27 @@ Univariate analysis involves examining one variable at a time to understand its 
 `Code`
 
 ```python
-import seaborn as sns
-import matplotlib.pyplot as plt
-import pandas as pd
-
 # Load your dataset - Replace 'your_dataset.csv' with the actual file path of your dataset
 # Assuming your dataset has a column named 'Temperature'
-your_dataset_path = 'your_dataset.csv'
-df = pd.read_csv(your_dataset_path)
+your_dataset_path <- 'your_dataset.csv'
+df <- read.csv(your_dataset_path)
 
 # Extract the 'Temperature' column
-temperature_data = df['Temperature']
+temperature_data <- df$Temperature
 
-# Create a histogram and fit a kernel density estimate
-sns.histplot(temperature_data, kde=True, color='skyblue', stat='density')
-
-# Set labels and title
-plt.xlabel('Temperature')
-plt.ylabel('Density')
-plt.title('Normal Distribution of Temperature')
+# Create a histogram with kernel density estimate using ggplot2
+library(ggplot2)
+ggplot(data = df, aes(x = temperature_data)) +
+  geom_histogram(aes(y = ..density..), bins = 30, fill = 'skyblue', color = 'black') +
+  geom_density(alpha = 0.5, fill = 'orange') +
+  labs(title = 'Normal Distribution of Temperature', x = 'Temperature', y = 'Density') +
+  theme_minimal()
 
 # Save the plot as a high-quality image (e.g., PNG)
-plt.savefig('temperature_distribution.png', dpi=300, bbox_inches='tight')
+ggsave('temperature_distribution.png', dpi = 300, width = 6, height = 4, units = 'in')
 
 # Show the plot
-plt.show()
+
 
  
 ```
