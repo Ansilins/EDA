@@ -3,7 +3,7 @@ Univariate analysis involves examining one variable at a time to understand its 
 
 1.Descriptive Statistics.
 2.Sum
-3.Measures of Central Tendency.
+3.Measures of Central Tendency
 4.Measure of Dispersion.
 5.Quantiles and Percentiles.
 6.Probability Distribution.
@@ -259,7 +259,7 @@ data = np.random.normal(loc=0, scale=1, size=1000)
 cv_val = np.std(data) / np.mean(data) * 100
 
 # Visualize CV
-`Code`
+`Code
 
 plt.figure()
 plt.hist(data, bins=30, alpha=0.7)
