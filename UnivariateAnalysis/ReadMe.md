@@ -259,7 +259,7 @@ data = np.random.normal(loc=0, scale=1, size=1000)
 cv_val = np.std(data) / np.mean(data) * 100
 
 # Visualize CV
-`Code
+`Code`
 
 plt.figure()
 plt.hist(data, bins=30, alpha=0.7)
