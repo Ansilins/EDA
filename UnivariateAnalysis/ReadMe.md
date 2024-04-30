@@ -129,6 +129,8 @@ import matplotlib.pyplot as plt
 np.random.seed(0)  # for reproducibility
 data = np.random.normal(loc=0, scale=1, size=1000)
 
+
+
 # Variance
 variance_val = np.var(data)
 
@@ -257,6 +259,9 @@ data = np.random.normal(loc=0, scale=1, size=1000)
 `Code`
 
 cv_val = np.std(data) / np.mean(data) * 100
+`output`
+Coefficient of Variation: 47.140452079103174
+
 
 # Visualize CV
 `Code`
